@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background: #000000;
+}
+.logo img {
+    margin: 50px;
+    width: 250px;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0.658) 50%);
+}
+.menu ul li {
+display: inline-block;
+margin: 50px;
+padding-top: 10px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+.menu ul li a:hover{
+    color: blue;
+    transition: 0.5ms;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
